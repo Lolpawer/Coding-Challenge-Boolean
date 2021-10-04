@@ -1,0 +1,71 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.square{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  width: 70%;
+  margin: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+header{
+  text-align: center;
+}
+
+.logo{
+  width: 300px
+}
+
+.logo-text{
+  color: lime;
+  font-size: 40px;
+  font-family: helvetica;
+}
+
+.buttons{
+  width: auto;
+  background-color: lime;
+  padding: 15px;
+}
+
+main{
+  margin: auto;
+  color: white;
+  font-family: helvetica;
+}
+
+.selezione{
+  display: inline-block;
+  font-size: 30px;
+}
+
+nav > div{
+  font-size: 20px;
+}
+
+#carica-gino{
+  width: 35%;
+  height: 30px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+#carica-mike{
+  width: 55%;
+  height: 30px;
+  background-color: green;
+  border-radius: 5px;
+}
+
+#carica-fede{
+  width: 15%;
+  height: 30px;
+  background-color: red;
+  border-radius: 5px;
+}
